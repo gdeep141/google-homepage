@@ -1,0 +1,17 @@
+img {
+    width: 18px;
+    height: 23px;
+    
+}
+
+.search-bar {
+    border: 1px solid #c1c1c1;
+    width: 584px;
+    height: 44px;
+    margin: 0px auto;
+    border-radius: 2px;
+}
+
+.logo-container, h1, .btn-container {
+    text-align: center
+}
