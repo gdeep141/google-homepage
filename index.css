@@ -1,7 +1,20 @@
-img {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img#main-logo {
+    width: 272px;
+}
+
+img#mic {
     width: 18px;
     height: 23px;
-    
+}
+
+input[type=text] {
+    width: 500px;
+    height: 100%;
+    padding: 0px 8px;
 }
 
 .search-bar {
@@ -10,8 +23,36 @@ img {
     height: 44px;
     margin: 0px auto;
     border-radius: 2px;
+    display: table;
 }
 
 .logo-container, h1, .btn-container {
     text-align: center
+}
+
+.upper-navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.upper-navbar li {
+    float: right;
+    padding: 8px;
+}
+
+.upper-navbar-container {
+    display: block;
+    height: 100px;
+}
+
+input[type=submit] {
+    border: none;
+    padding: 10px 10px;
+    font-weight: bold;
+    color: #757575;
+    border-radius: 3px;
+    margin-top: 30px;
+    width: 135px;
+    background: #f1f1f1;
 }
