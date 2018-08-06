@@ -20,11 +20,6 @@ input[value="Sign In"] {
     border-radius: 2px;
 }
 
-li {
-    height: 30px;
-    line-height: 30px;
-}
-
 .search-bar {
     width: 564px;
     height: 44px;
@@ -68,11 +63,17 @@ li {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: right;
 }
 
 .upper-navbar li {
-    float: right;
+    display: inline-block;
     padding: 8px;
+    vertical-align: middle;
+}
+
+img#apps-icon {
+    vertical-align: middle;
 }
 
 .upper-navbar-container {
