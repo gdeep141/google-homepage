@@ -40,7 +40,6 @@ input[value="Sign In"] {
     position: absolute;
     right: 12px;
     top: 12px;
-
 }
 
 .search-bar input[type=text] {
@@ -70,10 +69,23 @@ input[value="Sign In"] {
     display: inline-block;
     padding: 8px;
     vertical-align: middle;
+    font-size: 13px;
+}
+
+.upper-navbar li a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
 }
 
 img#apps-icon {
     vertical-align: middle;
+    opacity: 0.6;
+    width: 25px;
+    height: 25px;
+}
+
+img#apps-icon:hover {
+    opacity: 1;
 }
 
 .upper-navbar-container {
@@ -87,7 +99,8 @@ input[type=submit] {
     font-weight: bold;
     color: #757575;
     border-radius: 3px;
-    margin-top: 30px;
+    margin: 30px 2px;
     width: 135px;
     background: #f1f1f1;
+
 }
