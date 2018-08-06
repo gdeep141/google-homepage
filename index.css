@@ -30,8 +30,8 @@ input[value="Sign In"] {
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
-.search-bar:focus {
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,1), 0 0 0 1px rgba(0,0,0,1);
+.search-bar:focus-within, .search-bar:hover {
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
 .search-bar img#mic {
@@ -102,5 +102,10 @@ input[type=submit] {
     margin: 30px 2px;
     width: 135px;
     background: #f1f1f1;
+}
 
+input[type=submit]:hover {
+    border: 1px solid #c6c6c6;
+    color: #222;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
