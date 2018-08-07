@@ -11,7 +11,7 @@ img#apps-icon {
     color: grey;
 }
 
-input[value="Sign In"] {
+a#signin {
     color: white;
     background: #4285f4;
     font-weight: bold;
