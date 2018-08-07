@@ -7,6 +7,7 @@ body {
 
 .main-container {
     margin: 100px auto;
+    margin-bottom: 0px;
     width: 370px;
     height: 451px;
     padding: 48px 40px 36px 40px;
@@ -92,17 +93,31 @@ body {
 }
 
 .footer-container {
-    width: 370px;
+    width: 450px;
     margin: 0px auto;
-    padding: 48px 40px 36px 40px;
+    padding: 0;
+}
+
+.footer-container::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .footer-container ul {
     list-style-type: none;
-    text-align: right;
-    display: inline-block;
+    float: right;
+    color: #757575;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .footer-container li {
     display: inline-block;
+    padding: 0px 12px;
+}
+
+.footer-container span {
+    height: 47.2px;
+    line-height: 47.2px;
 }
